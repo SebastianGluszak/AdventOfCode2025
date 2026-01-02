@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(AdventOfCode2025 main.cpp
         src/DayOne.cpp
-        include/DayOne.h)
+        include/DayOne.h
+        src/DayTwo.cpp
+        include/DayTwo.h)

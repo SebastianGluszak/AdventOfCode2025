@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "include/DayOne.h"
+#include "include/DayTwo.h"
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
@@ -30,6 +31,13 @@ int main(int argc, char* argv[]) {
             Lock northPoleLock("/Users/sebastiangluszak/Dev/AdventOfCode2025/data/DayOneInputPartTwo.txt", false);
             northPoleLock.execute();
             std::cout << "The password to open the door is: " << northPoleLock.getPassword() << std::endl;
+        }
+    } else if (day == 2) {
+        GiftShop giftShop("/Users/sebastiangluszak/Dev/AdventOfCode2025/data/DayTwoInputPartOne.txt");
+        if (part == 1) {
+            std::cout << "The invalid ID score is: " << giftShop.getInvalidIDScorePart1() << std::endl;
+        } else if (part == 2) {
+            std::cout << "The invalid ID score is " << giftShop.getInvalidIDScorePart2() << std::endl;
         }
     }
 
