@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
             std::cout << "The password to open the door is: " << northPoleLock.getPassword() << std::endl;
         }
     } else if (day == 2) {
-        GiftShop giftShop("/Users/sebastiangluszak/Dev/AdventOfCode2025/data/DayTwoInputPartOne.txt");
+        GiftShop giftShop("/Users/sebastiangluszak/Dev/AdventOfCode2025/data/DayTwoInput.txt");
         if (part == 1) {
             std::cout << "The invalid ID score is: " << giftShop.getInvalidIDScorePart1() << std::endl;
         } else if (part == 2) {
