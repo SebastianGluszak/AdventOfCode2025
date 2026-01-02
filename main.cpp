@@ -2,6 +2,7 @@
 
 #include "include/DayOne.h"
 #include "include/DayTwo.h"
+#include "include/DayThree.h"
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
@@ -37,7 +38,14 @@ int main(int argc, char* argv[]) {
         if (part == 1) {
             std::cout << "The invalid ID score is: " << giftShop.getInvalidIDScorePart1() << std::endl;
         } else if (part == 2) {
-            std::cout << "The invalid ID score is " << giftShop.getInvalidIDScorePart2() << std::endl;
+            std::cout << "The invalid ID score is: " << giftShop.getInvalidIDScorePart2() << std::endl;
+        }
+    } else if (day == 3) {
+        PowerSupply powerSupply("/Users/sebastiangluszak/Dev/AdventOfCode2025/data/DayThreeInput.txt");
+        if (part == 1) {
+            std::cout << "The total joltage is: " << powerSupply.getTotalJoltagePart1() << std::endl;
+        } else if (part == 2) {
+            std::cout << "The total joltage is: " << powerSupply.getTotalJoltagePart2() << std::endl;
         }
     }
 
