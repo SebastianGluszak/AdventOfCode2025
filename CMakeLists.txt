@@ -10,4 +10,6 @@ add_executable(AdventOfCode2025 main.cpp
         include/DayTwo.h
         include/DayThree.h
         src/DayThree.cpp
-        src/DayThree.cpp)
+        src/DayThree.cpp
+        include/DayFour.h
+        src/DayFour.cpp)
