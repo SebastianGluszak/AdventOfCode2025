@@ -4,6 +4,7 @@
 #include "include/DayTwo.h"
 #include "include/DayThree.h"
 #include "include/DayFour.h"
+#include "include/DayFive.h"
 
 static std::string DATA_PATH{"/Users/sebastiangluszak/Dev/AdventOfCode2025/data/"};
 
@@ -57,6 +58,16 @@ int main(int argc, char* argv[]) {
         } else if (part == 2) {
             std::cout << "The number of paper rolls that can be removed is: " << printingDepartment.removePaperRolls() << std::endl;
         }
+    } else if (day == 5) {
+        Kitchen kitchen(DATA_PATH + "DayFiveInput.txt");
+        if (part == 1) {
+            std::cout << "The number of fresh ingredients is: " << kitchen.getFreshIngredientCount() << std::endl;
+        }
+        else if (part == 2) {
+            std::cout << "The total sum of range lengths is: " << kitchen.getFreshIngredientRangeCount() << std::endl;
+        }
+    } else {
+        std::cout << "~ Invalid day supplied! Enter an integer 1 - 12" << std::endl;
     }
 
     return 0;

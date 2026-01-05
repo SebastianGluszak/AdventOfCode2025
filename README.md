@@ -8,7 +8,7 @@ Merry Christmas!
 
 ## To build and executable for main run the following:
 
-```clang++ -std=c++2c -Wall -Wextra -o main main.cpp src/DayOne.cpp src/DayTwo.cpp src/DayThree.cpp src/DayFour.cpp```
+```clang++ -std=c++2c -Wall -Wextra -o main main.cpp src/DayOne.cpp src/DayTwo.cpp src/DayThree.cpp src/DayFour.cpp src/DayFive.cpp```
 
 ## To run the main executable run the following:
 
@@ -24,5 +24,7 @@ Merry Christmas!
 - Day: 3 Part: 2
 - Day: 4 Part: 1
 - Day: 4 Part: 2
+- Day: 5 Part: 1
+- Day: 5 Part: 2
 
 
