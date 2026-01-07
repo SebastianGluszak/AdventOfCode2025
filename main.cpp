@@ -5,6 +5,7 @@
 #include "include/DayThree.h"
 #include "include/DayFour.h"
 #include "include/DayFive.h"
+#include "include/DaySeven.h"
 #include "include/DaySix.h"
 
 static std::string DATA_PATH{"/Users/sebastiangluszak/Dev/AdventOfCode2025/data/"};
@@ -74,6 +75,14 @@ int main(int argc, char* argv[]) {
         }
         else if (part == 2) {
             std::cout << "The homework solution using cephalopod math is: " << homework.solveHomeworkCephalopod() << std::endl;
+        }
+    } else if (day == 7) {
+        Tachyon tachyon(DATA_PATH + "DaySevenInput.txt");
+        if (part == 1) {
+            std::cout << "The number of times the tachyon beam gets split after being shot is: " << tachyon.shootBeam() << std::endl;
+        }
+        else if (part == 2) {
+            std::cout << "The number of timelines for the quantum tachyon beam is: " << tachyon.simulateTimelines() << std::endl;
         }
     } else {
         std::cout << "~ Invalid day supplied! Enter an integer 1 - 12" << std::endl;

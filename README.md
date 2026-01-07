@@ -28,5 +28,7 @@ Merry Christmas!
 - Day: 5 Part: 2
 - Day: 6 Part: 1
 - Day: 6 Part: 2
+- Day: 7 Part: 1
+- Day: 7 Part: 2
 
 
